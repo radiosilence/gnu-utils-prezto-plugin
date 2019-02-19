@@ -1,1 +1,2 @@
-init.zsh
+0=${(%):-%N}
+source ${0:A:h}/gnu-utils.zsh
